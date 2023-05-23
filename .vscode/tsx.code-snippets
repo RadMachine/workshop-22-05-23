@@ -1,0 +1,19 @@
+{
+  "Export Functional Component": {
+    "scope": "typescriptreact",
+    "prefix": "efc",
+    "body": [
+      "export interface $1Props {",
+      "  ",
+      "}",
+      "",
+      "export function ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}}({}: $1Props) {",
+      "",
+      "",
+      "  return (",
+      "    $0",
+      "  )",
+      "}"
+    ]
+  }
+}
